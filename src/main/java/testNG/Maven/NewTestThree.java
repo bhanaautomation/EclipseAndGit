@@ -7,5 +7,7 @@ public class NewTestThree {
 	  public static void Test3() {
 		  
 		  System.out.println("Test Case 3");
+		  System.out.println("Test Case 3");
+		  System.out.println("Test Case 3");
 	  }
 }

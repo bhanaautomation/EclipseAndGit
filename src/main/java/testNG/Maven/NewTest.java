@@ -3,6 +3,7 @@ package testNG.Maven;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
@@ -12,20 +13,22 @@ public class NewTest {
 	
 	static WebDriver obj = null;
 	@BeforeTest 
-	public static void BeforeT() {
+	public  void BeforeT() {
 		System.setProperty("webdriver.gecko.driver","src/main/webdriver/geckodriver.exe");
 		obj = new FirefoxDriver();
-		obj.get("https://www.facebook.com/");
+		obj.get("https://www.google.com//");
 
 
 	}
 	
 	
 	@Test ()
-  public static void test() {
-	     obj.findElement(By.id("email")).sendKeys("pbo4wala");
-		 obj.findElement(By.id("pass")).sendKeys("Deep@1994");
-		 obj.findElement(By.linkText("Log In")).click();
+  public  void test() throws InterruptedException {
+	     obj.findElement(By.name("q")).sendKeys("youtube");
+	     obj.findElement(By.name("q")).sendKeys(Keys.ENTER);
+	     //obj.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+	     //obj.findElement(By.name("btnK")).click();
+	     Thread.sleep(3000);
 	     obj.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 //	  String ExpectedRes = "Programmable Search Engine";
 //	  String ActualRes = obj.getTitle();
@@ -34,7 +37,7 @@ public class NewTest {
 	
 	@AfterTest 
 	
-	public static void AfterT() {
+	public  void AfterT() {
 		
 		//obj.close();
 		

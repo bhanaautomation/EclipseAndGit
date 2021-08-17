@@ -6,6 +6,7 @@
       <class name="testNG.Maven.NewTest"/>
       <class name="testNG.Maven.NewTestTwo"/>
       <class name="testNG.Maven.NewTestThree"/>
+      <class name="testNG.Maven.Hope"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- TestSuite -->
