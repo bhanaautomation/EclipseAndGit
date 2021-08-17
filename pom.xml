@@ -5,7 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestNG</name>
   <description>TestNG</description>
-  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	</properties>
   <dependencies>
  	
  		 <dependency>
@@ -38,7 +42,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 		

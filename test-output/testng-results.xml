@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-16T21:15:36 EDT" name="TestSuite" finished-at="2021-08-16T21:15:54 EDT" duration-ms="17582">
+  <suite started-at="2021-08-17T11:22:17 EDT" name="TestSuite" finished-at="2021-08-17T11:22:32 EDT" duration-ms="15508">
     <groups>
     </groups>
-    <test started-at="2021-08-16T21:15:36 EDT" name="Test" finished-at="2021-08-16T21:15:54 EDT" duration-ms="17582">
+    <test started-at="2021-08-17T11:22:17 EDT" name="Test" finished-at="2021-08-17T11:22:32 EDT" duration-ms="15508">
       <class name="testNG.Maven.Hope">
-        <test-method signature="HopeW()[pri:0, instance:testNG.Maven.Hope@741a8937]" started-at="2021-08-16T21:15:54 EDT" name="HopeW" finished-at="2021-08-16T21:15:54 EDT" duration-ms="1" status="PASS">
+        <test-method signature="HopeW()[pri:0, instance:testNG.Maven.Hope@57cf54e1]" started-at="2021-08-17T11:22:32 EDT" name="HopeW" finished-at="2021-08-17T11:22:32 EDT" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HopeW -->
-      </class> <!-- testNG.Maven.Hope -->
-      <class name="testNG.Maven.NewTestTwo">
-        <test-method signature="Test2()[pri:0, instance:testNG.Maven.NewTestTwo@58d75e99]" started-at="2021-08-16T21:15:54 EDT" name="Test2" finished-at="2021-08-16T21:15:54 EDT" duration-ms="1" status="PASS">
+        <test-method signature="HopeW2()[pri:0, instance:testNG.Maven.Hope@57cf54e1]" started-at="2021-08-17T11:22:32 EDT" name="HopeW2" finished-at="2021-08-17T11:22:32 EDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-      </class> <!-- testNG.Maven.NewTestTwo -->
+        </test-method> <!-- HopeW2 -->
+        <test-method signature="HopeW3()[pri:0, instance:testNG.Maven.Hope@57cf54e1]" started-at="2021-08-17T11:22:32 EDT" name="HopeW3" finished-at="2021-08-17T11:22:32 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HopeW3 -->
+      </class> <!-- testNG.Maven.Hope -->
       <class name="testNG.Maven.NewTestThree">
-        <test-method signature="Test3()[pri:0, instance:testNG.Maven.NewTestThree@74751b3]" started-at="2021-08-16T21:15:54 EDT" name="Test3" finished-at="2021-08-16T21:15:54 EDT" duration-ms="2" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:testNG.Maven.NewTestThree@7c711375]" started-at="2021-08-17T11:22:32 EDT" name="Test3" finished-at="2021-08-17T11:22:32 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
       </class> <!-- testNG.Maven.NewTestThree -->
+      <class name="testNG.Maven.NewTestTwo">
+        <test-method signature="Test2()[pri:0, instance:testNG.Maven.NewTestTwo@5a56cdac]" started-at="2021-08-17T11:22:32 EDT" name="Test2" finished-at="2021-08-17T11:22:32 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- testNG.Maven.NewTestTwo -->
       <class name="testNG.Maven.NewTest">
-        <test-method is-config="true" signature="BeforeT()[pri:0, instance:testNG.Maven.NewTest@4fb3ee4e]" started-at="2021-08-16T21:15:36 EDT" name="BeforeT" finished-at="2021-08-16T21:15:49 EDT" duration-ms="13056" status="PASS">
+        <test-method is-config="true" signature="BeforeT()[pri:0, instance:testNG.Maven.NewTest@43dac38f]" started-at="2021-08-17T11:22:17 EDT" name="BeforeT" finished-at="2021-08-17T11:22:28 EDT" duration-ms="11612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeT -->
-        <test-method signature="test()[pri:0, instance:testNG.Maven.NewTest@4fb3ee4e]" started-at="2021-08-16T21:15:49 EDT" name="test" finished-at="2021-08-16T21:15:54 EDT" duration-ms="4437" status="PASS">
+        <test-method signature="test()[pri:0, instance:testNG.Maven.NewTest@43dac38f]" started-at="2021-08-17T11:22:28 EDT" name="test" finished-at="2021-08-17T11:22:32 EDT" duration-ms="3552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="AfterT()[pri:0, instance:testNG.Maven.NewTest@4fb3ee4e]" started-at="2021-08-16T21:15:54 EDT" name="AfterT" finished-at="2021-08-16T21:15:54 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterT()[pri:0, instance:testNG.Maven.NewTest@43dac38f]" started-at="2021-08-17T11:22:32 EDT" name="AfterT" finished-at="2021-08-17T11:22:32 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterT -->
